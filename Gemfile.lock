@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    taps (0.3.23)
+    taps (0.3.24)
       rack (>= 1.0.1)
       rest-client (>= 1.4.0, < 1.7.0)
       sequel (~> 3.20.0)
@@ -19,12 +19,10 @@ GEM
     hoptoad_notifier (2.4.7)
       activesupport
       builder
-    mime-types (1.18)
+    mime-types (1.19)
     mocha (0.9.8)
       rake
-    mysql (2.8.1)
-    mysql2 (0.2.6)
-    pg (0.9.0)
+    pg (0.14.1)
     rack (1.2.1)
     rack-test (0.5.7)
       rack (>= 1.0)
@@ -49,12 +47,10 @@ DEPENDENCIES
   extlib (= 0.9.15)
   hoptoad_notifier
   mocha
-  mysql (= 2.8.1)
-  mysql2 (= 0.2.6)
-  pg (= 0.9.0)
+  pg (> 0.9.0)
   rack-test
   rake
   rcov
-  sqlite3 (~> 1.2)
+  sqlite3
   taps!
   thin (> 1.2.0)
